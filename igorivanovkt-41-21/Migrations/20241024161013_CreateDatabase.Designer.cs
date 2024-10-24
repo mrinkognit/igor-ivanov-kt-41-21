@@ -10,14 +10,14 @@ using igorivanovkt_41_21.Database;
 namespace igorivanovkt_41_21.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20241011080018_CreateDatabase")]
+    [Migration("20241024161013_CreateDatabase")]
     partial class CreateDatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "8.0.10");
+            modelBuilder.HasAnnotation("ProductVersion", "7.0.10");
 
             modelBuilder.Entity("igorivanovkt_41_21.Models.Group", b =>
                 {
